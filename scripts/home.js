@@ -25,7 +25,7 @@ const courses = [
         technology: [
             'Python'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'WDD',
@@ -38,7 +38,7 @@ const courses = [
             'HTML',
             'CSS'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'CSE',
@@ -50,7 +50,7 @@ const courses = [
         technology: [
             'Python'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'CSE',
@@ -62,7 +62,7 @@ const courses = [
         technology: [
             'C#'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'WDD',
@@ -76,7 +76,7 @@ const courses = [
             'CSS',
             'JavaScript'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'WDD',
@@ -92,4 +92,73 @@ const courses = [
         ],
         completed: false
     }
+
+
 ]
+
+const coursesGrid = document.getElementById('coursesGrid');
+
+const count = document.getElementById('count');
+
+const all = document.getElementById('all');
+const wdd = document.getElementById('wdd');
+const cse = document.getElementById('cse');
+
+const defaultDisplay = () => {
+    let counter = 0
+    coursesGrid.innerHTML = '';
+
+    courses.forEach((course) => {
+        coursesGrid.innerHTML += layoutImages(course);
+        counter++;
+    });
+
+    count.textContent = counter;
+};
+
+defaultDisplay();
+
+const showWdd = () => {
+    let counter = 0
+    coursesGrid.innerHTML = '';
+
+    courses.forEach((course) => {
+        if (course.subject == 'WDD') {
+            coursesGrid.innerHTML += layoutImages(course);
+            counter++;
+        }
+    });
+    count.textContent = counter;
+};
+
+const showCse = () => {
+    let counter = 0
+    coursesGrid.innerHTML = '';
+
+    courses.forEach((course) => {
+        if (course.subject == 'CSE') {
+            coursesGrid.innerHTML += layoutImages(course);
+            counter++;
+        }
+    });
+    count.textContent = counter;
+};
+
+all.addEventListener('click', defaultDisplay);
+wdd.addEventListener('click', showWdd);
+cse.addEventListener('click', showCse);
+
+function layoutImages(courses) {
+
+    let completed = courses.completed;
+
+    if (completed == true) {
+	    return `<div class="course-card">
+                <h3 class="course-title color1">&#x2714; ${courses.subject} ${courses.number} </h3>
+                </div>`;
+    }else{
+        return `<div class="course-card">
+                <h3 class="course-title">${courses.subject} ${courses.number} </h3>
+                </div>`;
+    }
+} 

@@ -3,7 +3,7 @@
     --secondary-color: #385f71;
     --ascent1-color: #f5f0f6;
     --ascent2-color: #D7B377;
-    --ascent3-color: #8f754f;
+    --ascent3-color: #493619;
     --heading-font: 'Merriweather', sans-serif;
     --body-font: 'Roboto', sans-serif;
 }
@@ -117,8 +117,8 @@ main section {
 main h1 {
     font-family: var(--heading-font);
     padding: 0.5rem 0;
-    margin-left: 2rem;
-    width: 100%;
+    padding-left: 2rem;
+    width: 90%;
 }
 
 main h2 {
@@ -137,6 +137,68 @@ main p {
     text-align: justify;
     background-color: rgba(215, 179, 119, 0.3);
     height: 200px;
+}
+
+.courses {
+    font-size: 1.3rem;
+    width: 95%;
+    margin: auto;
+}
+
+.navigation2 {
+    margin-top: 2rem;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 0;
+    justify-items: center;
+}
+
+.navigation2 li {
+    display: inline;
+}
+
+.navigation2 a {
+    text-decoration: none;
+    color: var(--primary-color);
+    background-color: var(--ascent2-color);
+    font-size: 13px;
+    padding: 0.8rem 0.6rem;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.h4 {
+    background-color: var(--ascent1-color);
+    font-family: var(--heading-font);
+    text-align: center;
+    font-size: 1rem;
+    height: auto;
+    padding-top: 1.5rem;
+    margin: 1rem;
+}
+
+.course-title {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 2rem auto;
+    width: 200px;
+    height: 50px;
+    padding-top: 1rem;
+    border-radius: 8px;
+    background-color: var(--secondary-color);
+    color: var(--ascent1-color);
+    
+}
+
+.color1 {
+    background-color: var(--ascent2-color);
+    color: var(--primary-color);
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 footer {
