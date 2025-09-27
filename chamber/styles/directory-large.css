@@ -8,6 +8,10 @@
         margin-left: 3rem;
     }
 
+    a.active::after {
+        content: "";
+    }
+
     header span {
         font-size: 2rem;
         align-self: center;
