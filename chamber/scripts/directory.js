@@ -12,6 +12,7 @@ const navigation = document.getElementById('navigation');
 hamButton.addEventListener('click', () => {
 	navigation.classList.toggle('show');
 	hamButton.classList.toggle('show');
+
 });
 
 const membersGrid = document.getElementById('membersGrid');
