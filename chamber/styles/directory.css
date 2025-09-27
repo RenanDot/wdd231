@@ -1,9 +1,9 @@
 :root {
-    --primary-color: #2b4162;
-    --secondary-color: #385f71;
-    --ascent1-color: #f5f0f6;
-    --ascent2-color: #D7B377;
-    --ascent3-color: #493619;
+    --primary-color: #1e2749ff;
+    --secondary-color: #273469ff;
+    --ascent1-color: #e4d9ffff;
+    --ascent2-color: #fafaffff;
+    --ascent3-color: #30343fff;
     --heading-font: 'Merriweather', sans-serif;
     --body-font: 'Roboto', sans-serif;
 }
