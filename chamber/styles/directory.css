@@ -53,6 +53,15 @@ header span {
     font-size: clamp(1rem, 2vmin, 1.5rem);
 }
 
+h1 {
+    font-family: var(--heading-font);
+    text-align: center;
+    color: var(--primary-color);
+    padding: 0.5rem 0;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+}
+
 a.active::after {
   content: " ⭐";
 }
