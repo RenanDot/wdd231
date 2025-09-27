@@ -1,0 +1,109 @@
+{
+    "members": [
+        {
+            "name": "TechNova Solutions",
+            "address": [
+                "123 Innovation Drive",
+                "Boise",
+                "ID 83702"
+            ],
+            "phone": "+1-408-555-0101",
+            "website": "https://www.technova.com",
+            "image": "technova.jpg",
+            "membershipLevel": 3,
+            "description": "Leading provider of cloud-based software solutions.",
+            "contactEmail": "info@technova.com",
+            "established": 2010
+        },
+        {
+            "name": "GreenLeaf Organics",
+            "address": [
+                "456 Eco Lane",
+                "Boise",
+                "ID 83702"
+            ],
+            "phone": "+1-503-555-0192",
+            "website": "https://www.greenleaforganics.com",
+            "image": "greenleaf.jpg",
+            "membershipLevel": 2,
+            "description": "Organic food supplier and local farm network.",
+            "contactEmail": "contact@greenleaforganics.com",
+            "established": 2015
+        },
+        {
+            "name": "Cityscape Architects",
+            "address": [
+                "789 Skyline Blvd",
+                "Boise",
+                "ID 83702"
+            ],
+            "phone": "+1-312-555-0177",
+            "website": "https://www.cityscapearch.com",
+            "image": "cityscape.webp",
+            "membershipLevel": 1,
+            "description": "Award-winning architectural design firm.",
+            "contactEmail": "hello@cityscapearch.com",
+            "established": 2002
+        },
+        {
+            "name": "BrightFuture Education",
+            "address": [
+                "321 Learning Ave",
+                "Boise",
+                "ID 83702"
+            ],
+            "phone": "+1-617-555-0133",
+            "website": "https://www.brightfutureedu.org",
+            "image": "brightfuture.webp",
+            "membershipLevel": 2,
+            "description": "Non-profit organization focused on youth education.",
+            "contactEmail": "support@brightfutureedu.org",
+            "established": 2008
+        },
+        {
+            "name": "AquaPure Water Co.",
+            "address": [
+                "654 River Road",
+                "Boise",
+                "ID 83702"
+            ],
+            "phone": "+1-512-555-0188",
+            "website": "https://www.aquapurewater.com",
+            "image": "aquapure.webp",
+            "membershipLevel": 1,
+            "description": "Supplier of purified and bottled water.",
+            "contactEmail": "sales@aquapurewater.com",
+            "established": 2012
+        },
+        {
+            "name": "Urban Fitness Gym",
+            "address": [
+                "987 Wellness St",
+                "Boise",
+                "ID 83702"
+            ],
+            "phone": "+1-305-555-0144",
+            "website": "https://www.urbanfitnessgym.com",
+            "image": "urbanfitness.jpg",
+            "membershipLevel": 3,
+            "description": "State-of-the-art fitness center and personal training.",
+            "contactEmail": "info@urbanfitnessgym.com",
+            "established": 2016
+        },
+        {
+            "name": "Sunrise Bakery",
+            "address": [
+                "159 Morning Blvd",
+                "Boise",
+                "ID 83702"
+            ],
+            "phone": "+1-206-555-0166",
+            "website": "https://www.sunrisebakery.com",
+            "image": "sunrise.jpg",
+            "membershipLevel": 2,
+            "description": "Family-owned bakery specializing in artisan breads.",
+            "contactEmail": "orders@sunrisebakery.com",
+            "established": 1998
+        }
+    ]
+}

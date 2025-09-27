@@ -1,4 +1,4 @@
-@media screen and (min-width: 625px) {
+@media screen and (min-width: 700px) {
 
     #menu {
         display: none;
@@ -9,7 +9,7 @@
     }
 
     header span {
-        font-size: 3rem;
+        font-size: 2rem;
         align-self: center;
     }
 
@@ -18,7 +18,12 @@
     }
 
     .navigation {
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        gap: 1rem;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 0;
     }
 
     .main-nav {
@@ -26,16 +31,16 @@
     }
 
     .main-nav a {
-        color: var(--ascent1-color);
+        color: var(--ascent2-color);
         width: 100px;
-        text-align: center;
-        font-size: 1.5rem;
+        justify-content: center;
+        align-self: center;
+        font-size: clamp(1rem, 2vmin, 1.5rem);
         display: flex;
     }
 
     .main-nav a:hover {
-        text-align: center;
-        background-color: var(--ascent2-color);
+        background-color: var(--ascent1-color);
         color: var(--primary-color);
         width: 100px;
     }
@@ -55,6 +60,14 @@
         width: 100%;
     }
 
+    .navigation2 {
+        display: grid;
+        grid-template-columns: repeat(2, auto); /* two items side by side */
+        justify-content: space-evenly;
+        gap: 1rem;
+        margin-bottom: 2rem;
+    }
+
     .navigation2 a {
         font-size: 1.5rem;
         padding-left: 3rem;
@@ -63,11 +76,13 @@
 
     .navigation2 a:hover {
         font-size: 1.5rem;
-        background-color: var(--ascent3-color);
-        color: var(--ascent1-color); 
     }
 
-    .grid2 {
+    .list-item {
+        width: 70%;
+    }
+
+    .grid-style {
         width: 80%;
         padding: 1rem;
         margin: 0 auto;
@@ -75,7 +90,6 @@
 
     main {
         max-width: 1200px;
-        min-width: 700px;
         margin: 0 auto;
     }
 
@@ -83,4 +97,14 @@
         margin: auto 5px;
     }
 
+}
+
+@media screen and (min-width: 940px) {
+    .navigation {
+        grid-template-columns: repeat(4, auto);
+    }
+
+    header span {
+        font-size: 3rem;
+    }
 }
