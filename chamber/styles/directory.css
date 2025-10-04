@@ -1,4 +1,12 @@
-
+:root {
+    --primary-color: #1e2749ff;
+    --secondary-color: #273469ff;
+    --ascent1-color: #e4d9ffff;
+    --ascent2-color: #fafaffff;
+    --ascent3-color: #30343fff;
+    --heading-font: 'Merriweather', sans-serif;
+    --body-font: 'Roboto', sans-serif;
+}
 
 main section {
     margin: 1rem 1rem;
