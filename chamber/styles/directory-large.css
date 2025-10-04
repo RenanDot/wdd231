@@ -44,8 +44,3 @@
     }
 }
 
-@media screen and (min-width: 940px) {
-    .navigation {
-        grid-template-columns: repeat(4, auto);
-    }
-}

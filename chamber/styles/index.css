@@ -157,7 +157,7 @@ section h2 {
 .spotlight-item {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    justify-content: space-between; /* ajuda o conteúdo a se distribuir melhor */
+    justify-content: space-between;
     word-wrap: break-word;
     overflow-wrap: break-word;
 }
