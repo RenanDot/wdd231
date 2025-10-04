@@ -32,7 +32,6 @@
     transform: translateX(-50%);
     width: 60%;
     color: var(--ascent2-color);
-    background-color: rgb(39, 52, 105, 0.7);
     padding: 0.5rem 1rem;
     border-radius: 8px;
 }
