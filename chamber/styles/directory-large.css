@@ -1,64 +1,5 @@
 @media screen and (min-width: 700px) {
 
-    #menu {
-        display: none;
-    }
-
-    header img {
-        margin-left: 3rem;
-    }
-
-    h1 {
-        font-size: 2.5rem;
-    }
-
-    a.active::after {
-        content: "";
-    }
-
-    header span {
-        font-size: 2rem;
-        text-align: left;
-        align-self: center;
-        margin-left: 1rem;
-    }
-
-    header img {
-        height: 100px;
-    }
-
-    .navigation {
-        display: grid;
-        grid-template-columns: repeat(2, auto);
-        gap: 1rem;
-        justify-content: center;
-        margin: 0 auto;
-        padding: 0;
-    }
-
-    .main-nav {
-        grid-column: auto;
-    }
-
-    .main-nav a {
-        color: var(--ascent2-color);
-        width: 100px;
-        justify-content: center;
-        align-self: center;
-        font-size: clamp(1rem, 2vmin, 1.5rem);
-        display: flex;
-    }
-
-    .main-nav a:hover {
-        background-color: var(--ascent1-color);
-        color: var(--primary-color);
-        width: 100px;
-    }
-
-    .navigation li { 
-        display: flex;
-    }
-
     .grid {
         display: grid;
         grid-template-columns: 2fr 1fr 1fr;
@@ -98,15 +39,9 @@
         margin: 0 auto;
     }
 
-    main {
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-
     main section{
         margin: auto 5px;
     }
-
 }
 
 @media screen and (min-width: 940px) {

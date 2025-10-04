@@ -12,9 +12,9 @@
     <link rel="stylesheet" href="styles/base-large.css">
     <link rel="stylesheet" href="styles/directory.css">
     <link rel="stylesheet" href="styles/directory-large.css">
-    
+
     <script src="scripts/headfoot.js" defer></script>
-    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/index.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -37,24 +37,48 @@
         <a id="menu" href="#"></a>
         <nav class="main-nav">
             <ul class="navigation" id="navigation">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="directory.html" class="active">Directory</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
                 <li><a href="discover.html">Discover</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h1>Business Directory</h1>
+        <div class="hero">
+            
+        </div>
+
+        <h1>Home</h1>
+
+        <div class="grid">
+            <section>
+                <h2>Events</h2>
+                <p></p>
+            </section>
+            <section>
+                <h2>Current Weather</h2>
+                <p></p>
+            </section>
+            <section>
+                <h2>Weather Forecast</h2>
+                <p></p>
+            </section>
+        </div>
+
+        <h2 class="courses">Web and Computer Programming Certificate</h2>
         
         <nav>
             <ul class="navigation2">
-                <li><a href="#" id="grid">Grid</a></li>
-                <li><a href="#" id="list">List</a></li>
+                <li><a href="#" id="all">All Courses</a></li>
+                <li><a href="#" id="wdd">WDD Courses</a></li>
+                <li><a href="#" id="cse">CSE Courses</a></li>
             </ul>
         </nav>
+
+        <p class="h4">The total number of courses listed below is <span id="count"></span></p>
         
-        <div class="grid-style" id="membersGrid"></div>
+        <div class="grid2" id="coursesGrid"></div>
     </main>
     <footer>
         <nav class="socialmedia">
