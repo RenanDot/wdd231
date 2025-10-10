@@ -27,6 +27,10 @@
         height: 100px;
     }
 
+    a.active {
+        text-decoration: underline;
+    }
+
     .navigation {
         display: grid;
         grid-template-columns: repeat(2, auto);
