@@ -5,6 +5,12 @@
         max-width: 1400px;
     }
 
+    .main-h1 {
+        grid-column: 1 / span 2;
+        font-size: 2.5rem;
+        margin: 2rem auto;
+    }
+
     form {
         border-right: solid var(--primary-color) 3px;
     }
