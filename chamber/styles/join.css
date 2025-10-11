@@ -1,0 +1,302 @@
+/* Form styles */
+form {
+    max-width: 700px;
+    margin: auto;
+    padding: 2rem;
+    background-color: var(--ascent2-color);
+}
+
+fieldset {
+    border: 1px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 1rem auto;
+}
+
+legend {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    font-weight: bold;
+    font-family: var(--heading-font);
+    margin-bottom: 1rem;
+}
+
+label {
+    color: var(--primary-color);
+    display: block;
+    padding-top: 1rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+div {
+    color: var(--primary-color);
+    display: block;
+    padding-top: 1rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.checkbox-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-bottom: 2rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="number"],
+input[type="tel"],
+textarea 
+{
+    width: 97%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    margin-right: 2rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+select{
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    margin-right: 2rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.second {
+    font-size: 1.8rem;
+    padding-top: 4rem;
+}
+
+.checkbox {
+    margin-right: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+}
+
+input[type="checkbox"], 
+input[type="radio"] {
+    margin-right: 0.7rem;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+
+input[type="submit"] {
+    background-image: linear-gradient(var(--ascent3-color), var(--secondary-color));
+    color: var(--ascent2-color);
+    border: none;
+    padding: 1rem 1rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: var(--body-font);
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    border: var(--primary-color) 3px solid;
+}
+
+input[type="submit"]:hover {
+    background-image: linear-gradient(var(--ascent1-color), var(--ascent2-color));
+    color: var(--ascent3-color);
+    border: var(--primary-color) 3px solid;
+}
+
+dialog {
+    border: 3px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: var(--ascent2-color);
+    width: 70%;
+    text-align: center;
+}
+
+.membership-info {
+    max-width: 900px;
+    padding: 2rem;
+    text-align: center;
+}
+
+.membership-info h2 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+    margin-bottom: 2rem;
+}
+
+.membership-level {
+    padding: 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    background-color: var(--secondary-color);
+    color: var(--ascent2-color);
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.membership-level h3 {
+    font-size: 1.5rem;
+    font-family: var(--heading-font);
+    letter-spacing: 1px;
+}
+
+::backdrop {
+    background: rgba(41, 40, 107, 0.5);
+}
+
+/* Button customization */
+
+.custom-bt {
+    width: 130px;
+    height: 40px;
+    font-size: 1rem;
+    color: var(--primary-color);
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: var(--body-font);
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    transition: all 0.3s ease;
+        box-shadow:inset 2px 2px 2px 0px rgba(12, 6, 6, 0.5),
+        7px 7px 20px 0px rgba(0,0,0,.1),
+        4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+}
+
+.bt1 {
+    background: var(--ascent1-color);
+    border: none;
+    z-index: 1;
+}
+
+.bt1:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+        box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+        7px 7px 20px 0px rgba(0,0,0,.1),
+        4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.4s ease;
+}
+
+.bt1:hover {
+  color: var(--ascent2-color);
+}
+
+.bt1:hover:after {
+  left: 0;
+  width: 100%;
+}
+
+.bt1:active {
+  top: 2px;
+}
+
+.custom-bt2 {
+    margin-top: 2rem;
+    width: 130px;
+    height: 40px;
+    font-size: 1rem;
+    color: var(--ascent2-color);
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: var(--body-font);
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    transition: all 0.3s ease;
+        box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+        7px 7px 20px 0px rgba(0,0,0,.1),
+        4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+}
+
+.bt2 {
+    background: var(--secondary-color);
+    border: none;
+    z-index: 1;
+}
+
+.bt2:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: var(--ascent1-color);
+    border-radius: 5px;
+        box-shadow:inset 2px 2px 2px 0px rgba(12, 6, 6, 0.5),
+        7px 7px 20px 0px rgba(0,0,0,.1),
+        4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.4s ease;
+}
+
+.bt2:hover {
+  color: var(--primary-color);
+}
+
+.bt2:hover:after {
+  left: 0;
+  width: 100%;
+}
+
+.bt2:active {
+  top: 2px;
+}
+
+/* Card animation */
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: slideUp 0.8s ease-out forwards;
+}
+
+.first-card {
+  animation-delay: 0.2s;
+}
+.second-card {
+  animation-delay: 0.4s;
+}
+.third-card {
+  animation-delay: 0.6s;
+}
+.fourth-card {
+  animation-delay: 0.8s;
+}
+

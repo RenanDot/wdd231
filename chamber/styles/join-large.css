@@ -1,0 +1,17 @@
+@media  screen and (min-width: 700px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 1400px;
+    }
+
+    form {
+        border-right: solid var(--primary-color) 3px;
+    }
+
+    .membership-level {
+        width: 60%;
+        margin: 2rem auto;
+    }
+    
+}
