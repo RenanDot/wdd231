@@ -1,0 +1,42 @@
+@media only screen and (min-width: 640px) {
+
+    .places-grid section{
+        grid-template-areas: 
+            "image name"
+            "image address"
+            "image description"
+            "image button";
+    }
+
+    .places-grid section img{
+        width: 300px;
+        object-fit: cover;
+        border-bottom-left-radius: 8px;
+        border-top-left-radius: 8px;
+    }
+
+    .places-grid section h2{
+        position: relative;
+        font-size: 1.5rem;
+    }
+
+    .places-grid section address{
+        position: relative;
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+
+    .places-grid section p{
+        margin-top: 0;
+        position: relative;
+
+    }
+
+    .places-grid section img:hover{
+        box-shadow: 0 0 50px #333;
+        transform: scale(1.05);
+        transition: all 0.3s ease-in-out;
+        border-bottom-right-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+}

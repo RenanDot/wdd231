@@ -3,42 +3,50 @@
     {
         "name":"President Kennedy Square (Rodrigo's Square)",
         "address":"R. Expedicionários, 1297-1397 - Jardim Bela Vista, Cosmópolis - SP, 13150-000",
-        "description":"A plaza with green areas, playgrounds, and a monuments to famous people."
+        "description":"A plaza with green areas, playgrounds, and a monuments to famous people.",
+        "image":"rodrigo.webp"
     },
     {
         "name":"Iron Bridge",
         "address":"Cosmópolis - SP, 13150-000",
-        "description":"A historic iron bridge over the Atibaia River, offering scenic views and a glimpse into the city's past."
+        "description":"A historic iron bridge over the Atibaia River, offering scenic views and a glimpse into the city's past.",
+        "image":"ponte.webp"
     },
     {
         "name":"Paulínia Ecological Park",
         "address":"Av. Pres. Getúlio Vargas, s/nº - Centro, Paulínia - SP, 13140-000",
-        "description":"A large park with walking trails, picnic areas, and a lake, perfect for outdoor activities and relaxation."
+        "description":"A large park with walking trails, picnic areas, and a lake, perfect for outdoor activities and relaxation.",
+        "image":"parque_eco.webp"
     },
     {
         "name":"Luís Perissinotto Municipal Stadium",
         "address":"R. Prudente Pigatto, S/N - Santa Cecilia, Paulínia - SP, 13140-000",
-        "description":"Sports stadium hosting local football matches and events."
+        "description":"Sports stadium hosting local football matches and events.",
+        "image":"estadio.webp"
     },
     {
         "name":"Paulínia Municipal Theater",
         "address":"Av. José Lozano Araújo, 1551 - Parque Brasil 500, Paulínia - SP, 13140-000",
-        "description":"A cultural venue offering a variety of performances, including theater, music, and dance."
+        "description":"A cultural venue offering a variety of performances, including theater, music, and dance.",
+        "image":"teatro.webp"
     },
     {
         "name":"Birds' Lagoon Park",
         "address":"R. Tiradentes - Centro, Artur Nogueira - SP, 13160-000",
-        "description":"A serene park with a lagoon, walking paths, and birdwatching opportunities."
+        "description":"A serene park with a lagoon, walking paths, and birdwatching opportunities.",
+        "image":"parque_passaros.webp"
     },
     {
         "name":"Dodge Museum",
         "address":"Unnamed Road, 13160-000, Artur Nogueira - SP",
-        "description":"A museum showcasing vintage Dodge cars and automotive history."
+        "description":"A museum showcasing vintage Dodge cars and automotive history.",
+        "image":"dodge.webp"
     },
     {
         "name":"Green Camp - Leisure and Fishing Center",
         "address":"Rod. Vicinal Santa Rosa, km 5, s/n Vicinal Rua Limeira Chácaras Campos dos Amarais, Artur Nogueira - SP, 13160-000",
-        "description":"A recreational area offering fishing, picnicking, and outdoor activities."
+        "description":"A recreational area offering fishing, picnicking, and outdoor activities.",
+        "image":"green_camp.webp"
     }
 ]
 }

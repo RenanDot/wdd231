@@ -1,0 +1,16 @@
+@media only screen and (min-width: 1220px) {
+    .places-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .places-grid section img{
+        height: 200px;
+        object-fit: cover;
+        align-self: center;
+    }
+
+
+    .places-grid section button{
+        margin: 1rem 0.5rem 1rem 0.5rem;
+    }
+}
