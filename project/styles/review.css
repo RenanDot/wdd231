@@ -1,0 +1,35 @@
+#infoDisplay {
+    margin-bottom: 5rem;
+}
+
+#infoDisplay p {
+    font-size: 1.7rem;
+    margin: 0.5rem 0;
+}
+
+#infoDisplay li {
+    font-size: 1.5rem;
+    margin: 0.3rem 0 0.3rem 2rem;
+    padding-bottom: 1rem;
+    text-align: left;
+}
+
+.invoice {
+    text-align: center;
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 900px;
+    border: 2px solid var(--ascent3-color);
+    border-radius: 12px;
+    background-color: var(--white-color);
+    padding: 2rem;
+}
+
+.custom-bt1 {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: black;
+    font-family: var(--body-font);
+    height: 50px;
+}

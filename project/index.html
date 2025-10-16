@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A webstie index page, created for a market of ear rings, necklaces, and bracelets. the nema of the page is mini loja, which means mini store in portuguese.">
+    <meta name="author" content="Renan Daniel de Campos">
+
+    <!-- Linking css files -->
+    <link rel="stylesheet" href="styles/project.css">
+    <link rel="stylesheet" href="styles/project-large.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/index-large.css">
+
+
+    <!-- Linking fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- conecting script -->
+    <script defer src="scripts/index.js"></script>
+    <script defer src="scripts/special.js"></script>
+
+    <title>Mini Loja</title>
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- Meta OG -->
+    <meta property="og:title" content="Mini Loja">
+    <meta property="og:description" content="Your one-stop shop for beautiful earrings, necklaces, and bracelets. Here you can find whatever you want! And we can make your dreams become true!">
+    <meta property="og:image" content="https://renandot.github.io/wdd231/project/images/logo.png">
+    <meta property="og:image:alt" content="Mini Loja logo">
+    <meta property="og:url" content="https://renandot.github.io/wdd231/project/index.html">
+    <meta property="og:type" content="website">
+</head>
+<body>
+
+    <header>
+        <img src="images/logo.png" alt="Mini Loja logo" class="logo" width="150" height="150">
+        <h1>Mini Loja</h1>
+
+        <a id="menu" href="#"></a>
+        <nav class="main-nav">
+            <ul class="navigation" id="navigation">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="purchase.html">Buy Jewelry</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2 id="header1">Welcome to the Mini Loja</h2>
+            <picture>
+                <source media="(min-width: 1000px)" srcset="images/hero-image-large.webp">
+                <source media="(min-width: 550px)" srcset="images/hero-image-medium.webp">
+                <img src="images/hero-image-small.webp" alt="Ilustrative image of a jewelry" class="hero-image">
+            </picture>
+            <p>Your one-stop shop for beautiful earrings, necklaces, and bracelets. Here you can find whatever you want! And we can make your dreams become true!</p>
+        </section>
+
+        <section class="products">
+            <h2>Featured Products</h2>
+            <div class="product-list">
+                <article class="product-item">
+                    <img src="images/earring.webp" alt="Earrings" class="product-image">
+                    <h3>Earrings</h3>
+                    <p>Elegant and stylish earrings for every occasion.</p>
+                </article>
+                <article class="product-item">
+                    <img src="images/necklace.webp" alt="Necklace" class="product-image">
+                    <h3>Necklace</h3>
+                    <p>Beautiful necklaces to complement your outfit.</p>
+                </article>
+                <article class="product-item">
+                    <img src="images/bracelet.webp" alt="Bracelet" class="product-image">
+                    <h3>Bracelet</h3>
+                    <p>Charming bracelets that add a touch of elegance.</p>
+                </article>
+                <div>
+                    <p>Want to buy some <strong>jewelry</strong></p>
+                    <button id="puchaseBt" class="custom-bt1 bt1">Check this out</button>
+                </div>
+                
+            </div>
+        </section>
+
+        <div class="weather-grid">
+            <section>
+                <h2>Current Weather</h2>
+                <div class="weather-display">
+                    <h3 id="city">Empty city</h3>
+                    <img id="weather-icon" src="https://openweathermap.org/img/wn/10d@2x.png" alt="Weather Icon">
+                    <p id="temperature"></p>
+                    <p id="description"></p>
+                    <p>High: <span id="highTemp"></span></p>
+                    <p>Low: <span id="lowTemp"></span></p>
+                    <p>Humidity: <span id="humidity"></span></p>
+                    <p>Sunrise: <span id="sunrise"></span></p>
+                    <p>Sunset: <span id="sunset"></span></p>
+                </div>
+            </section>
+            <section>
+                <h2>Weather Forecast</h2>
+                <div class="weather-forecast">
+                    <p id="day1"></p>
+                    <span id="day1-temp"></span>
+                    <p id="day2"></p>
+                    <span id="day2-temp"></span>
+                    <p id="day3"></p>
+                    <span id="day3-temp"></span>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <p class="copyright">&copy; <span id="currentYear"></span> - Renan Daniel de Campos - São Paulo, Brazil</p>
+            <p class="modification">Last Modification: <span id="lastModified"></span></p>
+        </div>
+        <nav class="socialmedia">
+            <a href="https://www.facebook.com">
+                <img src="images/facebook.svg" alt="Facebook Icon" width="40" height="40">
+            </a>
+            <a href="https://www.instagram.com">
+                <img src="images/instagram.svg" alt="Instagram Icon" width="40" height="40">
+            </a>
+            <a href="https://www.twitter.com">
+                <img src="images/twitter.svg" alt="Twitter Icon" width="40" height="40">
+            </a>
+        </nav>
+    
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+@media screen and (min-width: 700px) {
+    .weather-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .bt1 {
+        width: 30%;
+        height: 70px;
+        font-size: 2rem;
+        padding: 0.5rem;
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width: 1026px) {
+    .product-list div {
+        grid-column: 1 / 4;
+    }
+}

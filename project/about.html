@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The about us page of Mini Loja, a market for earrings, necklaces, and bracelets. Learn more about our mission, values, and the team behind the store.">
+    <meta name="author" content="Renan Daniel de Campos">
+
+    <!-- Linking css files -->
+    <link rel="stylesheet" href="styles/project.css">
+    <link rel="stylesheet" href="styles/project-large.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/about-large.css">
+
+
+    <!-- Linking fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- conecting script -->
+    <script defer src="scripts/index.js"></script>
+    <script defer src="scripts/about.js"></script>
+
+    <title>About Us</title>
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- Meta OG -->
+    <meta property="og:title" content="Mini Loja">
+    <meta property="og:description" content="Your one-stop shop for beautiful earrings, necklaces, and bracelets. Here you can find whatever you want! And we can make your dreams become true!">
+    <meta property="og:image" content="https://renandot.github.io/wdd231/project/images/logo.png">
+    <meta property="og:image:alt" content="Mini Loja logo">
+    <meta property="og:url" content="https://renandot.github.io/wdd231/project/index.html">
+    <meta property="og:type" content="website">
+</head>
+<body>
+
+    <header>
+        <img src="images/logo.png" alt="Mini Loja logo" class="logo" width="150" height="150">
+        <h1>Mini Loja</h1>
+
+        <a id="menu" href="#"></a>
+        <nav class="main-nav">
+            <ul class="navigation" id="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="purchase.html">Buy Jewelry</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about">
+            <h2>About Us</h2>
+            <p>Welcome to Mini Loja, your go-to destination for exquisite earrings, necklaces, and bracelets. Our mission is to provide high-quality, stylish jewelry that enhances your beauty and complements your unique style.</p>
+            <p>Founded by Renan Daniel de Campos and Alejandra Carolina Cervantes de Campos, Mini Loja is dedicated to offering a wide range of jewelry pieces that cater to all tastes and occasions. Whether you're looking for something elegant for a special event or a casual piece for everyday wear, we have something for everyone.</p>
+            <p>At Mini Loja, we believe in the power of jewelry to express individuality and create lasting memories. Our team is passionate about curating the best selection of jewelry that not only looks great but also feels great to wear.</p>
+        </section>
+
+        <section>
+            <h2>Meet the Team</h2>
+            <div class="team card">
+                <div class="team-member first-card">
+                    <img src="images/renan-icon.webp" alt="Renan Daniel de Campos" class="team-photo">
+                    <h3>Renan Daniel de Campos</h3>
+
+                    <button id="openButton1" class="custom-bt1 bt1">About Me</button>
+                </div>
+                <div class="team-member first-card">
+                    <img src="images/alejandra-icon.webp" alt="Alejandra Carolina Cervantes de Campos" class="team-photo">
+                    <h3>Alejandra Carolina Cervantes de Campos</h3>
+                    <button id="openButton2" class="custom-bt1 bt1">About Me</button>
+                </div>
+
+                <dialog id="dialogBox">
+                    <div></div>
+                    <button id="closeButton" class="custom-bt2 bt2">Close</button>
+                </dialog>
+            </div>
+        </section>
+
+        <section class="mission">
+            <h2>Our Mission</h2>
+            <p>At Mini Loja, our mission is to empower individuals through beautiful jewelry. We strive to create pieces that not only enhance your appearance but also boost your confidence and self-expression.</p>
+            <p>We are committed to sustainability and ethical sourcing, ensuring that our jewelry is made with care for both the environment and the artisans who craft them.</p>
+        </section>
+
+    </main>
+
+    <footer>
+    <div>
+        <p class="copyright">&copy; <span id="currentYear"></span> - Renan Daniel de Campos - São Paulo, Brazil</p>
+        <p class="modification">Last Modification: <span id="lastModified"></span></p>
+    </div>
+    <nav class="socialmedia">
+        <a href="https://www.facebook.com">
+            <img src="images/facebook.svg" alt="Facebook Icon" width="40" height="40">
+        </a>
+        <a href="https://www.instagram.com">
+            <img src="images/instagram.svg" alt="Instagram Icon" width="40" height="40">
+        </a>
+        <a href="https://www.twitter.com">
+            <img src="images/twitter.svg" alt="Twitter Icon" width="40" height="40">
+        </a>
+    </nav>
+    
+    </footer>
+
+</body>
+</html>

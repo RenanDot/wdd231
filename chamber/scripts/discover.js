@@ -48,11 +48,13 @@ const lastVisit = new Date(parseInt(window.localStorage.getItem('last-visit')));
 
 const today = Date.now();
 
+const firstVisit = localStorage.getItem('last-visit');
+
 const msToDays = 86400000;
 
 const difference = (today - lastVisit.getTime()) / msToDays;
 
-    if(lastVisit === null) {
+    if(firstVisit === null) {
         header1.innerText = "Welcome! Let us know if you have any questions.";
         localStorage.setItem('last-visit', Date.now());
     } else if(difference < 1) {

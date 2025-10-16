@@ -1,0 +1,44 @@
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#dialogBox {
+    border: 3px solid var(--primary-color);
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: var(--primary-color);
+    width: 70%;
+    text-align: center;
+}
+
+.card {
+    animation: slideUp 1s ease-in-out;
+}
+
+.first-card {
+    animation-delay: 0.2s;
+}
+
+.team-member img{
+    width: 100%;
+}
+
+.custom-bt1 {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.bt1:after {
+    background-color: var(--secondary-color);
+}
+
+.bt1:hover {
+    color: black;
+}

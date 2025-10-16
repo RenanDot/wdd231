@@ -1,0 +1,28 @@
+@media screen and (min-width: 700px) {
+
+    .team {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        margin: 2rem;
+    }
+
+    .team-member {
+        text-align: center;
+        max-width: 300px;;
+    }
+
+    .team-member img {
+        width: 200px;
+        border-radius: 50%;
+    }
+
+    .team-member h3 {
+        font-size: 1.5rem;
+    }
+
+    .team-member p {
+        font-size: 1.2rem;
+    }
+
+}
