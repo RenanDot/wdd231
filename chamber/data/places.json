@@ -1,0 +1,44 @@
+{
+    "places": [
+    {
+        "name":"President Kennedy Square (Rodrigo's Square)",
+        "address":"R. Expedicionários, 1297-1397 - Jardim Bela Vista, Cosmópolis - SP, 13150-000",
+        "description":"A plaza with green areas, playgrounds, and a monuments to famous people."
+    },
+    {
+        "name":"Iron Bridge",
+        "address":"Cosmópolis - SP, 13150-000",
+        "description":"A historic iron bridge over the Atibaia River, offering scenic views and a glimpse into the city's past."
+    },
+    {
+        "name":"Paulínia Ecological Park",
+        "address":"Av. Pres. Getúlio Vargas, s/nº - Centro, Paulínia - SP, 13140-000",
+        "description":"A large park with walking trails, picnic areas, and a lake, perfect for outdoor activities and relaxation."
+    },
+    {
+        "name":"Luís Perissinotto Municipal Stadium",
+        "address":"R. Prudente Pigatto, S/N - Santa Cecilia, Paulínia - SP, 13140-000",
+        "description":"Sports stadium hosting local football matches and events."
+    },
+    {
+        "name":"Paulínia Municipal Theater",
+        "address":"Av. José Lozano Araújo, 1551 - Parque Brasil 500, Paulínia - SP, 13140-000",
+        "description":"A cultural venue offering a variety of performances, including theater, music, and dance."
+    },
+    {
+        "name":"Birds' Lagoon Park",
+        "address":"R. Tiradentes - Centro, Artur Nogueira - SP, 13160-000",
+        "description":"A serene park with a lagoon, walking paths, and birdwatching opportunities."
+    },
+    {
+        "name":"Dodge Museum",
+        "address":"Unnamed Road, 13160-000, Artur Nogueira - SP",
+        "description":"A museum showcasing vintage Dodge cars and automotive history."
+    },
+    {
+        "name":"Green Camp - Leisure and Fishing Center",
+        "address":"Rod. Vicinal Santa Rosa, km 5, s/n Vicinal Rua Limeira Chácaras Campos dos Amarais, Artur Nogueira - SP, 13160-000",
+        "description":"A recreational area offering fishing, picnicking, and outdoor activities."
+    }
+]
+}
