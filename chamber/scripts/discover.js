@@ -2,6 +2,8 @@ const placesGrid = document.getElementById('placesGrid');
 
 const placesUrl = 'data/places.json';
 
+const header1 = document.getElementById('date');
+
 async function getPlacesData() {
     const response = await fetch(placesUrl);
     const data = await response.json();
@@ -41,3 +43,22 @@ function displayItems(place) {
 }
 
 getPlacesData();
+
+const lastVisit = new Date(parseInt(window.localStorage.getItem('last-visit')));
+
+const today = Date.now();
+
+const msToDays = 86400000;
+
+const difference = (today - lastVisit.getTime()) / msToDays;
+
+    if(lastVisit === null) {
+        header1.innerText = "Welcome! Let us know if you have any questions.";
+        localStorage.setItem('last-visit', Date.now());
+    } else if(difference < 1) {
+        header1.innerText = "Back so soon! Awesome!";
+        localStorage.setItem('last-visit', Date.now());
+    } else {
+        header1.innerHTML = `You last visited ${Math.floor(difference)} days ago.`;
+        localStorage.setItem('last-visit', Date.now());
+    }
