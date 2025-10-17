@@ -125,7 +125,7 @@ function layoutImages(product) {
 
     figcaption2.textContent = `Price: $${product.price}`;
 
-    figcaption3.textContent = `Description: ${product.description}`;
+    figcaption3.textContent = `${product.description}`;
 
     figure.appendChild(figcaption1);
     figure.appendChild(img);
