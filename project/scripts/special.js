@@ -38,7 +38,7 @@ async function apiFetch() {
         throw Error(await response.text());
     }
   } catch (error) {
-      console.log(error);
+        alert('Error fetching weather data: ' + (error.message || error));
   }
 }
 
@@ -52,7 +52,7 @@ async function apiFetch2() {
             throw Error(await response.text());
         }
     } catch (error) {
-        console.log(error);
+        alert('Error fetching forecast: ' + (error.message || error));
     }
 }
 
@@ -99,12 +99,12 @@ const msToDays = 86400000;
 const difference = (today - lastVisit.getTime()) / msToDays;
 
     if(firstVisit === null) {
-        header1.innerText = "Welcome! Let us know if you have any questions.";
+        header1.innerText = "Welcome to the Mini Loja! Let us know if you have any questions.";
         localStorage.setItem('last-visit', Date.now());
     } else if(difference < 1) {
-        header1.innerText = "Great to see you again! And so soon!";
+        header1.innerText = "Great to see you again at the Mini Loja! And so soon!";
         localStorage.setItem('last-visit', Date.now());
     } else {
-        header1.innerHTML = `You last visited ${Math.floor(difference)} days ago. Good to see you back!`;
+        header1.innerHTML = `You last visited ${Math.floor(difference)} days ago. Good to see you back at the Mini Loja!`;
         localStorage.setItem('last-visit', Date.now());
     }
