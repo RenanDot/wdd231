@@ -4,7 +4,7 @@
         grid-template-columns: 1.5fr 3fr 1.5fr;
     }
 
-    header h1 {
+    header h2 {
         display: block;
         font-family: var(--heading-font);
         font-size: 3rem;
