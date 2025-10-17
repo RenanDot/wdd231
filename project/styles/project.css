@@ -160,6 +160,13 @@ main h2 {
     margin: 0 auto 2rem;
 }
 
+.product-image {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto 1rem;
+}
+
 .hero p {
     font-family: var(--body-font);
     font-size: 1.5rem;
